@@ -1,7 +1,7 @@
 import React from 'react';
 import { PHARMACY_DATA } from '../data/pharmacyData';
 import { MessageCircle, ShieldCheck, HeartHandshake, Truck, MapPin } from 'lucide-react';
-import heroImage from '../assets/imagem.png';
+const heroImage = `${import.meta.env.BASE_URL}WhatsApp%20Image%202026-07-22%20at%2018.02.56.jpeg`;
 
 export const Hero: React.FC = () => {
   return (
@@ -9,13 +9,13 @@ export const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-center">
           
-          {/* Left Column: Motorcycle Character (Flipped horizontally with -scale-x-100 to face right) */}
+          {/* Left Column: Motorcycle Character */}
           <div className="md:col-span-6 lg:col-span-6 flex items-center justify-center md:justify-start shrink-0">
             <img
               src={heroImage}
               alt="FarMelhor Nova Cidade SG - Entregador de Motocicleta"
               referrerPolicy="no-referrer"
-              className="-scale-x-100 w-full max-w-sm sm:max-w-md lg:max-w-lg h-auto object-contain select-none pointer-events-none"
+              className="w-full max-w-sm sm:max-w-md lg:max-w-lg h-auto object-contain select-none pointer-events-none"
             />
           </div>
 
@@ -72,6 +72,3 @@ export const Hero: React.FC = () => {
     </section>
   );
 };
-
-
-
