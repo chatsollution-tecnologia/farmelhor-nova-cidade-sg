@@ -1,0 +1,6 @@
+{
+  "name": "FarMelhor Nova Cidade SG",
+  "description": "Site institucional e informativo da drogaria FarMelhor Nova Cidade SG em São Gonçalo/RJ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
